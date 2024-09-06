@@ -18,7 +18,7 @@ The tools we will use include:
 - dnSpy;
 - MelonLoader.
 
-Have fun! [Reverse-Engeeniering game Hacking](./another-page.html).
+Have fun! [Reverse-Engeeniering game Hacking](./Reverse-Engineering.md).
 
 
 # Home-Lab
