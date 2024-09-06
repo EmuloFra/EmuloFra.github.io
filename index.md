@@ -2,9 +2,26 @@
 layout: default
 ---
 
-'''
+
+On this page, you can find links that will redirect you to the individual projects. 
+In case some project inspires you, you are free to try it using my work as a walkthrough
+
+# Reverse-Engeeniering game hacking
+In this project, we will breach DEFCON32, a game designed to hone hacking skills sponsored by GameHacking.GG
+
+Useful knowledge is:
+- Understanding of the C programming language;
+- Understanding of assembly.
+
+The tools we will use include:
+- Chat Engine;
+- dnSpy;
+- MelonLoader.
+
+Have fun! [Reverse-Engeeniering game Hacking](./another-page.html).
+
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-'''
+
 
 [Link to another page](./another-page.html).
 
