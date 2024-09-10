@@ -7,6 +7,6 @@
 - Monitor and defend against attacks
 
 # Organization
-- [Installation of OPNsense and configuration of Suricata to set up an IPS/IDS service](./Chapter1). 
-- [Creation of a trusted certificate authority and setting up a transparent proxy](./Chapter2). 
-- [Redundancy and High Availability Firewall (HA)](./Chapter3). 
+- [Installation of OPNsense and configuration of Suricata to set up an IPS/IDS service](./Chapter1-HL.md). 
+- [Creation of a trusted certificate authority and setting up a transparent proxy](./Chapter2-HL.md). 
+- [Redundancy and High Availability Firewall (HA)](./Chapter3-HL.md). 
