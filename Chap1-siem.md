@@ -23,9 +23,37 @@ Let's analyze the installation on Windows, first, and on Kali, after.
 ![Add Integrations](./addami.png)
 
 ### Windows
+We have to open the powershell as administrator and insert the code that elastic recommends. 
+Then, we have to confirm the installation by typing "y".
 
+![Add Integrations](./win1.png)
+
+We will receive a success message when the installation is complete.
+
+![Add Integrations](./win2.png)
 
 ### Kali Linux
+
+We paste the command, as previously done for windows, into the kali terminal (you can open it with ctrl+alt+t) 
+![Add Integrations](./kali1.png)
+
+Here too we should confirm the intention to install the agent with "y"
+![Add Integrations](./kali2.png)
+
+Similarly, we would eventually have a success message.
+![Add Integrations](./kali3.png)
+
+To confirm whether the service is active we can use the command:
+sudo systemctl status elastic-agent.service
+![Add Integrations](./kali4.png)
+
+The environment is ready, we can finally start working.
+
+
+[You can continue with chapter 2!](./Chap2-siem.md).
+
+
+
 
 
 
