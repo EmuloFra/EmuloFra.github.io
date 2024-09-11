@@ -17,7 +17,16 @@ Search for “Elastic Defend” and click on it to open the integration page (Ad
 
 ![Add Integrations](./siem2.png)
 
+A window like this should appear, let's see where to insert these scripts to install the agent on our host.
+Let's analyze the installation on Windows, first, and on Kali, after.
+
+![Add Integrations](./addami.png)
+
+### Windows
+
+
+### Kali Linux
 
 
 
-
+###
