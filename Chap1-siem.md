@@ -13,7 +13,11 @@ To set up the agent to collect logs from your Kali VM and forward them to your E
 
 ![Add Integrations](./siem3.png)
 
+Search for “Elastic Defend” and click on it to open the integration page (Add Elastic Defend), follow the guided process to the agent installation page.
+
 ![Add Integrations](./siem2.png)
 
-![Add Integrations](./siem1.png)
+
+
+
 
