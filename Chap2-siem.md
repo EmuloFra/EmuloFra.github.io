@@ -7,3 +7,7 @@ Since we are using only one virtual machine, we can make a scan towards our loca
 
 ![Add Integrations](./scan.PNG)
 
+### Querying for Security Events in the Elastic SIEM
+
+Now that we have forwarded data from the Kali VM to the SIEM, we can start querying and analyzing the logs in the SIEM.
+
