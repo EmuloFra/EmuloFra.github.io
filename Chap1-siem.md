@@ -1,6 +1,6 @@
 ## Account creation
 
-The first thing to do is to create a free account, a credit card is not required, at https://cloud.elastic.co/registration
+The first thing to do is to create a free account, a credit card is not required, [here](https://cloud.elastic.co/registration)
 
 Once registered click on the "Create Deployment" button and select "Elasticsearch" as the deployment type.
 Choose a region and deployment size that fits what you want and click on "Create Deployment".
