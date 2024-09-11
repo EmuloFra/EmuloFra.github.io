@@ -45,6 +45,7 @@ Similarly, we would eventually have a success message.
 
 To confirm whether the service is active we can use the command:
 sudo systemctl status elastic-agent.service
+
 ![Add Integrations](./kali4.png)
 
 The environment is ready, we can finally start working.
