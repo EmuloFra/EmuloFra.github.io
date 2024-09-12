@@ -35,12 +35,15 @@ We will receive a success message when the installation is complete.
 ### Kali Linux
 
 We paste the command, as previously done for windows, into the kali terminal (you can open it with ctrl+alt+t) 
+
 ![Add Integrations](./kali1.png)
 
 Here too we should confirm the intention to install the agent with "y"
+
 ![Add Integrations](./kali2.png)
 
 Similarly, we would eventually have a success message.
+
 ![Add Integrations](./kali3.png)
 
 To confirm whether the service is active we can use the command:
