@@ -14,7 +14,7 @@ Inside your Elastic Deployment, click on the menu icon at the top-left with the 
 
 ![Add Integrations](./elasticlog.png)
 
-We can enter in the search bar a query to filter the logs, for example, **event.action:"nmap_scan"**
+We can enter in the search bar a query to filter the logs, for example, **event.action:"nmap"**
 Click on "Search" button to execute the search query (it can take a while for the events to populate and show up on the SIEM).
 
 You will see something like this:
