@@ -11,7 +11,7 @@ Wait for the configuration to complete, then click "continue".
 An agent is a software program that is installed on a device, such as a server or endpoint, to collect and send data to a centralized system for analysis and monitoring. 
 To set up the agent to collect logs from your Kali VM and forward them to your Elastic SIEM instance, we have to log in to our SIEM instane and navigate to the Integrations page clicking on the Kibana main menu bar at the top left to choose "Integrations" at the bottom. 
 
-![Add Integrations](./siem3.png)
+![Add Integrations](./https://github.com/EmuloFra/EmuloFra.github.io/blob/main/Assets/siem3.png)
 
 Search for “Elastic Defend” and click on it to open the integration page (Add Elastic Defend), follow the guided process to the agent installation page.
 
