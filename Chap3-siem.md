@@ -7,11 +7,16 @@ Let's go back to our main page, I'll leave you the [link](https://cloud.elastic.
 
 ![Add Integrations](./ch3im1.png)
 
+In the new screen you will notice a blue button on the left with the words "create dashboard", click it and continue by clicking on the new "create visualization" screen to reach the page to work on.
+
 ![Add Integrations](./ch3im2.png)
 
-![Add Integrations](./ch3im3.png)
+
+Probably in this window, where I am typing, you will find the words "Area" or "Line"; put "bar vertical stacked", then fill in the fields as in the example below:
 
 ![Add Integrations](./ch3im4.png)
+
+I leave you with an example of how to fill in the Horizontal axis and the Vertical axis (complete with attached graph).
 
 ![Add Integrations](./ch3im5.png)
 
