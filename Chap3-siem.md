@@ -4,3 +4,15 @@ You can also use the visualizations and dashboards in the SIEM app to analyze th
 
 Let's do that:
 Let's go back to our main page, I'll leave you the [link](https://cloud.elastic.co/home) to speed up navigation, select the deployment you previously worked on, then click on the drop-down menu at the top left, and continue by clicking on "Dashboards" located in the "Analytics" section.
+
+![Add Integrations](./ch3im1.png)
+
+![Add Integrations](./ch3im2.png)
+
+![Add Integrations](./ch3im3.png)
+
+![Add Integrations](./ch3im4.png)
+
+![Add Integrations](./ch3im5.png)
+
+![Add Integrations](./ch3im6.png)
