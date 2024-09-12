@@ -10,4 +10,20 @@ Since we are using only one virtual machine, we can make a scan towards our loca
 ### Querying for Security Events in the Elastic SIEM
 
 Now that we have forwarded data from the Kali VM to the SIEM, we can start querying and analyzing the logs in the SIEM.
+Inside your Elastic Deployment, click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
 
+![Add Integrations](./elasticlog.png)
+
+We can enter in the search bar a query to filter the logs, for example, **event.action:"nmap_scan"**
+Click on "Search" button to execute the search query (it can take a while for the events to populate and show up on the SIEM).
+
+You will see something like this:
+
+![Add Integrations](./cp2im1.png)
+
+By moving the mouse cursor over an event, three dots will appear on the left, by clicking them you can get information about the host IP, the command executed and similar.
+
+![Add Integrations](./cp2im2.png)
+![Add Integrations](./cp2im3.png)
+
+[You can continue with chapter 3!](./Chap3-siem.md).
