@@ -13,7 +13,7 @@ The tools we will use include:
 - dnSpy;
 - MelonLoader.
 
-Have fun! [Reverse-Engeeniering game Hacking](./BlueTeam/Reverse/Reverse-Engineering.md).
+Have fun! [Reverse-Engeeniering game Hacking](./Reverse/Reverse-Engineering.md).
 
 
 # Home-Lab
@@ -26,7 +26,7 @@ Here's what this project aims to do:
 - General PT (tools and techniques);
 - Monitor and Defend against attacks.
 
-Ready for the marathon? [Home-Lab](./BlueTeam/OPNsense/Home-Lab.md).
+Ready for the marathon? [Home-Lab](./OPNsense/Home-Lab.md).
 
 
 # How to set a simple Elastic SIEM Lab
@@ -40,4 +40,4 @@ Here's what this project aims to do:
 - Create a Dashboard to visualize security events.
 - Create alerts for security events.
 
-Let's get into it: [Elastic SIEM Lab](./BlueTeam/SIEM/Elastic-SIEM-Lab.md).
+Let's get into it: [Elastic SIEM Lab](./SIEM/Elastic-SIEM-Lab.md).
