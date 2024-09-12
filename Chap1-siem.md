@@ -36,6 +36,7 @@ We will receive a success message when the installation is complete.
 
 We paste the command, as previously done for windows, into the kali terminal (you can open it with ctrl+alt+t) 
 
+
 ![Add Integrations](./kali1.png)
 
 Here too we should confirm the intention to install the agent with "y"
