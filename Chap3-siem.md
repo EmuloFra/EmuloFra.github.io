@@ -16,7 +16,7 @@ Probably in this window, where I am typing, you will find the words "Area" or "L
 
 ![Add Integrations](./ch3im4.png)
 
-I leave you with an example of how to fill in the Horizontal axis and the Vertical axis (complete with attached graph).
+I leave you with an example of how to fill in the Horizontal axis and the Vertical axis (complete with attached graph). Remember to click on "save and return" at the top right before closing the window.
 
 ![Add Integrations](./ch3im5.png)
 
