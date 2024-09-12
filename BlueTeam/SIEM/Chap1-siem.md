@@ -55,7 +55,7 @@ sudo systemctl status elastic-agent.service
 The environment is ready, we can finally start working.
 
 
-[You can continue with chapter 2!](./Assets/Chap2-siem.md).
+[You can continue with chapter 2!](./Chap2-siem.md).
 
 
 
