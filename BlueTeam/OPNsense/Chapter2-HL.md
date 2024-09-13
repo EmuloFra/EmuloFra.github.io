@@ -36,11 +36,25 @@ The certificate will be downloaded in .pem, to install it just go to "Manage use
 
 # Web-Proxy
 
+
+If you have not done so previously, move to firmware, plugins, and install os-squid (plugins appear after the first update).
+
 ![Add Integrations](./Assets/ch2im3.png)
+
+Going to Service Squid Web Proxy, which now appears, we set it as follows:
 
 ![Add Integrations](./Assets/ch2im4.png)
 
+The appearance of the menu at the top right will be proof of correct application.
+By moving to forward Proxy we can continue with our configuration. 
+
+NB: Be careful when you enable the transparent HTTP proxy, you will have to add an attached firewall rule; similarly add the HTTPS rule for SSL inspection.
+
+Remember to apply your changes before leaving the port forward rules page.
+
 ![Add Integrations](./Assets/ch2im5.png)
+
+
 
 ![Add Integrations](./Assets/ch2im6.png)
 
