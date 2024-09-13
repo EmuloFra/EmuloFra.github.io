@@ -91,12 +91,23 @@ Once this is done, we invoke the tool, the GUI will open, and we compile as in t
 
 ![Add Integrations](./Assets/ch1im5.png)
 
+Once inside we should insert the file containing the previously written rule (custom) into the rule directory. 
+To do this we will use a file in xml format which will tell opnsense where to download the rule written by us (in the location url item).
+
+In the screen below you can see the two files that I will use:
 
 ![Add Integrations](./Assets/ch1im6.png)
 
 
+We can visualize in the image below the two directories that interest us: the first, the one on the left, is the directory where we have the two files to transfer; on the right, however, the OPNsense target folder.
+We will only move the .xml file, through this we will recall the file with the previously written rule (we must activate the http.server server)
+
 
 ![Add Integrations](./Assets/ch1im7.png)
+
+In the directory where we have the two files on the host we are going to activate the server via Python on port 80 to allow opnsense to download the rule.
+
+When we go to service, intrusion detection, administration, download and update everything using the button at the top right, we may find our rule (the .xml file) among others. When we select it, click enable selected and then download & update, the query will be started and the rule will be downloaded from the server previously activated on port 80.
 
 
 ![Add Integrations](./Assets/ch1im8.png)
