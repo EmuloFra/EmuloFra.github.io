@@ -45,8 +45,13 @@ Let's continue now by creating the firewall rules.
 
 In the first example, just for demonstration, I will create a rule by hand from CLI and import it to OPNsense; in the second example, however, we will use the OPNsense GUI, a quicker and more intuitive method.
 
-# From CLI
+# From CLI (on Kali)
 
+We will write this rule from the terminal by issuing the command:
+
+nano [document name]
+
+Once the document is opened, here is the rule that I will insert (explained below)
 Our rule will be as follows:
 ```
 alert tcp $HOME_NET any -> 10.200.200.254/24 any (msg:"POSSIBLE NMAP SYNSTEALTH SCAN DETECTED"; flow:stateless; flags:S; priority:5; threshold:type threshold, track by_src, count 50, seconds 1; classtype:attempted-recon; sid:1234;)
