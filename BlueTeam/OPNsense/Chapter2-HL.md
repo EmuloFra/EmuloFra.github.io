@@ -12,6 +12,6 @@
 
 ![Add Integrations](./Assets/ch2im6.png)
 
-![Add Integrations](./Assets/ch2im7.jpg)
+![Add Integrations](./Assets/ch2im7.jpeg)
 
 [You can continue with chapter 2!](./Chapter3-HL.md).
