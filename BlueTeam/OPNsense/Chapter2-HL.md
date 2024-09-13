@@ -54,7 +54,18 @@ Remember to apply your changes before leaving the port forward rules page.
 
 ![Add Integrations](./Assets/ch2im5.png)
 
+Continuing to set up Squid, remember to use as CA what we have previously created and imported into the machine.
 
+Finally we are at the SSL no dump sites option. 
+We must think of this proxy as a man in the middle between clients and destinations, this section allows us to add URLs and all the subdomains that we do not want to be proxyed via the SSL proxy (it will be bypassed and will keep communication intact).
+Things to exclude should be things related to banks and the like.
+
+However, we are not done yet, we need to move to "Remote access control list" to load a blacklist.
+Going to the + will open an interactive screen to fill in, as URL I'll leave you the one that I will use myself, the URL is taken from the University of Toulouse (France) since they have a department dedicated to updating the same list.
+
+[Blacklists UT1](https://dsi.ut-capitole.fr/blacklists/index_en.php)
+
+From here you can identify the lists that interest you, copy the destination link and insert it into opnsese.
 
 ![Add Integrations](./Assets/ch2im6.png)
 
