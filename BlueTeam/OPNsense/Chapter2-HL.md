@@ -80,7 +80,7 @@ Since the rules are executed in top-down mode, if we put these traffic blocks be
 
 We will put it in the rules 
 
-- action: Block
+- Action: Block
 - TCP/UDP protocols
 - Source: LAN
 - Port-Range: on one HTTP, on the other HTTPS
