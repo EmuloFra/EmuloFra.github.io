@@ -27,3 +27,5 @@
 
 
 ![Add Integrations](./Assets/ch1im9.png)
+
+[You can continue with chapter 2!](./Chapter2-HL.md).
