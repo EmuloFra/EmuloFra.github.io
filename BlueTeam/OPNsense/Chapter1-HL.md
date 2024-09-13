@@ -41,9 +41,38 @@ It is perfect for working with Snort and Surricata.
 
 ![Add Integrations](./Assets/ch1im3.png)
 
+Let's continue now by creating the firewall rules. 
 
+In the first example, just for demonstration, I will create a rule by hand from CLI and import it to OPNsense; in the second example, however, we will use the OPNsense GUI, a quicker and more intuitive method.
+
+# From CLI
+
+Our rule will be as follows:
+```
+alert tcp $HOME_NET any -> 10.200.200.254/24 any (msg:"POSSIBLE NMAP SYNSTEALTH SCAN DETECTED"; flow:stateless; flags:S; priority:5; threshold:type threshold, track by_src, count 50, seconds 1; classtype:attempted-recon; sid:1234;)
+```
+
+- alert, is the action that will be performed;
+- tcp, is the protocol;
+- $HOME_NET, will be a "placeholder" for our "home network".
+- any -> 10.200.200.254/24, all traffic directed towards our firewall
+
+So far we say that all the traffic arriving from the home network on the TCP protocol (on each port) directed towards the firewall must generate a message saying that it is a possible nmap stealth scan (detected).
+
+OT: namp is used for information ghetering by hackers, it's one of the first steps.
+
+- flow:statless, indicates the stateless state, it is based exclusively on the individual configured rules, the packets are analyzed individually;
+- flag:S, is the tcp flag, the S indicates SYN (syn stealth scans work as if they were sending syn requests to the server but the three-way-handshake is never completed obtaining half-open connections).
+
+  
 
 ![Add Integrations](./Assets/ch1im4.png)
+
+
+
+
+
+
 
 
 ![Add Integrations](./Assets/ch1im5.png)
