@@ -31,6 +31,8 @@ This operation is also quite intuitive, click on the "add" button located in the
 
 ![Add Integrations](./Assets/ch1im2.png)
 
+# Surricata
+
 
 ![Add Integrations](./Assets/ch1im3.png)
 
