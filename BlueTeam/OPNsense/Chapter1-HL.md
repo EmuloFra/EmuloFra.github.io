@@ -33,8 +33,13 @@ This operation is also quite intuitive, click on the "add" button located in the
 
 # Surricata
 
+To install the intrusion detection system on opnsense just go to Service, Intrusion Detection, Administration and go to advanced mode.
+By clicking on the "i" next to the setting title you can obtain an explanation regarding the function; alternatively you can click on "Full help" to get additional information on each individual field.
+NB: As a pattern matcher I selected Hyperscan because it is more modern and optimized to work with modern processors (as well as supporting strong parallelization and being highly scalable). 
+It is perfect for working with Snort and Surricata.
 
 ![Add Integrations](./Assets/ch1im3.png)
+
 
 
 ![Add Integrations](./Assets/ch1im4.png)
