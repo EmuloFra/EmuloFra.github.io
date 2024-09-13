@@ -112,6 +112,17 @@ When we go to service, intrusion detection, administration, download and update 
 
 ![Add Integrations](./Assets/ch1im8.png)
 
+In the Schedule section of the same sub-page it is possible to schedule activities to automate them, although it is useful as a practice in companies, using a single rule is not the case to apply it in our case.
+
+Everything is ready, we confirm the correct functioning of the IDS by starting an nmap from kali towards the firewall.
+We will use the -sS object to indicate a synscan; -Ps to make sure that if the target does not respond to the ping it must continue scanning; —top-port 500 to scan the first 500 ports; firewall is the word that I set to correspond to the IP 10.200.200.254 (you can set it via the nano /etc/hosts command).
+
+
+# Costum Rule from GUI
+
+A simpler alternative to create custom rules is located in the "User defined" section, try inserting a basic rule (or alternatively you can enable the pre-installed rules) relating to ping to see how it appears in the Alerts screen.
+
+This alternative is very quick and intuitive, in the appropriate section you will see something similar to this:
 
 ![Add Integrations](./Assets/ch1im9.png)
 
