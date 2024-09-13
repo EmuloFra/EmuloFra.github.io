@@ -53,6 +53,7 @@ nano [document name]
 
 Once the document is opened, here is the rule that I will insert (explained below)
 Our rule will be as follows:
+
 ```
 alert tcp $HOME_NET any -> 10.200.200.254/24 any (msg:"POSSIBLE NMAP SYNSTEALTH SCAN DETECTED"; flow:stateless; flags:S; priority:5; threshold:type threshold, track by_src, count 50, seconds 1; classtype:attempted-recon; sid:1234;)
 ```
@@ -69,16 +70,24 @@ OT: namp is used for information ghetering by hackers, it's one of the first ste
 - flow:statless, indicates the stateless state, it is based exclusively on the individual configured rules, the packets are analyzed individually;
 - flag:S, is the tcp flag, the S indicates SYN (syn stealth scans work as if they were sending syn requests to the server but the three-way-handshake is never completed obtaining half-open connections).
 
-  
+---
+
+This rule now needs to be moved to OPNsense somehow.
+Let's prepare the work environment by going to System, Settings, Administration; we will connect via SSH.
+
+NB: In this case we will use root for login and the insertion of the password as Authentication Method; in real life it is recommended to authenticate via certificate (in the next chapters you will see how they are created).
 
 ![Add Integrations](./Assets/ch1im4.png)
 
 
+To establish a connection with opnsense, the quickest method is to use "filezilla" which will take care of establishing an sftp connection to our target (helping us in our aim).
+Let's continue installing filezilla on kali with the classic command:
 
+```
+sudo apt install filezilla
+```
 
-
-
-
+Once this is done, we invoke the tool, the GUI will open, and we compile as in the image.
 
 ![Add Integrations](./Assets/ch1im5.png)
 
