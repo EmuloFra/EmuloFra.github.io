@@ -14,4 +14,4 @@
 
 ![Add Integrations](./Assets/ch2im7.jpeg)
 
-[You can continue with chapter 2!](./Chapter3-HL.md).
+[You can continue with chapter 3!](./Chapter3-HL.md).
