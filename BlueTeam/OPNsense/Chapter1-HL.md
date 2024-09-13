@@ -6,7 +6,10 @@ The download is quite intuitive.
 If your host is a Windows machine you may encounter some difficulty decompressing the file you just downloaded.
 
 Once you have downloaded opnsense you should notice, in fact, how it has been compressed in a "non-canonical" way, you can decompress this file by downloading bzip2. 
-Downloaded from the official website, using powershell you can go to the folder where the OPNsense was downloaded and unzip it ( .\bunzip2.exe —help to get an overview of the objects you can use).
+Downloaded from the official website, using powershell you can go to the folder where the OPNsense was downloaded and unzip it:
+
+
+( .\bunzip2.exe —help to get an overview of the objects you can use).
 
 Continue independently with the installation of this new machine (now you have the file) and configure the LAN and WAN.
 
