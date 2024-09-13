@@ -22,6 +22,12 @@ During configuration you will be asked if you want to activate the GUI, click ye
 
 ![Add Integrations](./Assets/ch1im1.JPG.jpg)
 
+# Update
+
+Once logged in (the default credentials are id:root, pw:opnsense) we need to update everything, then go to system, firmware, status and click check for update.
+
+After confirming the update, since we are working on virtualbox, we will have to install the os-virtualbox plugin which, post-update, we find in the appropriate section.
+This operation is also quite intuitive, click on the "add" button located in the same line as the plugin concerned and follow the guided path.
 
 ![Add Integrations](./Assets/ch1im2.png)
 
