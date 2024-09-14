@@ -95,11 +95,24 @@ Done both on main and backup do apply.
 
 ![Add Integrations](./Assets/ch3im9.png)
 
+# High Availability 
+Let's now continue with configuring high availability on both the master and the backup; you can do this by going to system, high availability, setting.
 
+Once here you must activate synchronizate States, interface pfsync, IP the one of the backup firewall 10.0.0.2 (if you are on main, otherwise vice versa); fill in with the username and password used to log in to opnsense and check all the boxes below to indicate total synchronization.
+
+We can conclude by defining a specific rule for the outbound NAT aimed at specifying that both firewalls must use the virtual IP address that we have set (10.0.2.254) and that, therefore, they must have a net translation from our LAN IP address.
+To do this we go back to the master and go to firewall, nat, outbound.
+By default we will find the "Automatic outbound NAT rule generation" option checked, we must put "Hybrid outbound NAT rule generation"; and then add a rule, on this same interface, which says that everything coming from the LAN (10.200.200.254) must be translated to 10.0.2.254.
 
 ![Add Integrations](./Assets/ch3im10.png)
 
+Everything has been set!
+From the dashboard we can add the CARP status widget, let's put it on both firewalls because it will help us see something very interesting in the practice we are about to start!
+In the URL you can see the IP, in the widget, however, the master and backup tag:
+
 ![Add Integrations](./Assets/ch3im11.png)
+
+
 
 ![Add Integrations](./Assets/ch3im12.png)
 
