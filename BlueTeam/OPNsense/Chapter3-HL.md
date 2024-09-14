@@ -112,16 +112,28 @@ In the URL you can see the IP, in the widget, however, the master and backup tag
 
 ![Add Integrations](./Assets/ch3im11.png)
 
-
+We have to open three terminals from our kali machine and use the first to ping at 10.200.200.254; the second to ping at 10,200,200,251 and the third to ping at 10,200,200,252.
 
 ![Add Integrations](./Assets/ch3im12.png)
 
+Communication occurs correctly, but what happens if some problem arises affecting our master?
+Let's simulate this situation by disconnecting the Cable Connection (adapter 1, WAN, and 2, LAN, leaving adapter 3) from our master.
+
 ![Add Integrations](./Assets/ch3im13.jpg)
+
+The firewall goes down and the master host is no longer reachable, obviously the backup continues to work undisturbed.
 
 ![Add Integrations](./Assets/ch3im14.png)
 
+Going to the GUI and looking at our widget we can notice how while the first firewall no longer shows anything, the second, the backup one, has switched to MASTER.
+
 ![Add Integrations](./Assets/ch3im15.png)
 
+When we reactive the first firewall, the master one; we notice how it becomes reachable from the screen below.
+
 ![Add Integrations](./Assets/ch3im16.png)
+
+Refreshing the page we can see how the first firewall has regained the MASTER tag, while the second has regained the backup tag. 
+During the master downtime all operations continued without any problem.
 
 ![Add Integrations](./Assets/ch3im17.png)
