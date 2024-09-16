@@ -1,3 +1,14 @@
+# Home-Lab
+This will be the longest project in the portfolio, which is why explanations of basic topics and definitions of well-known tools will be avoided.
+
+Here’s what this project aims to do:
+
+Learn to configure Networks, Firewalls, Servers and Systems;
+Administer Windows and Linux clients and servers;
+Harden devices and networks;
+General PT (tools and techniques);
+Monitor and Defend against attacks.
+
 
 # Learning 
 - Learn how to configure networks, firewalls, servers and systems;
