@@ -83,7 +83,7 @@ Dal momento che il network Docker0 agisce come uno switch, i tre container sono 
 
 Proviamo, quindi, ad entrare in uno dei docker generati ed in esecuzione.
 
-*************Il comando per entrare è il seguente:
+Il comando per entrare è il seguente:
 
 ![Add Integrations](./Assets/1-11.png)
 
